@@ -1,0 +1,161 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:boder-box;
+}
+
+body{
+     background-color:rgb(247, 220, 121); 
+    /* background-image: linear-gradient(to right, rgba(0, 0, 0, 0.6055), rgb(0, 18, 83)); */
+    /* background-image: url("https://blog.icons8.com/wp-content/uploads/2020/02/how-to-create-gradient-article.jpg");
+    background-repeat: no-repeat;
+    background-size: cover; */
+}
+
+header{
+    background-color:rgb(247, 220, 121);
+    padding:30px;
+    border:8px solid #ec961e;
+
+   
+}
+
+header > h1
+{
+   color:maroon;
+   text-align: center;
+   font-family: Audiowide, sans-serif;
+   font-size:3rem;
+}
+
+
+
+
+
+.score-board
+{
+    margin: 30px auto;
+    border:5px dashed maroon; 
+    width:400px;
+    height:100px;
+    font-size:45px;
+    border-radius:2rem ;
+    text-align: center;
+    padding:15px 25px;
+    font-family:italic ;
+    position:relative;
+
+}
+
+.badge
+{
+    background-color:#ec961e;
+    border:3px solid maroon;
+   border-radius: 40%;
+    padding:2px 10px;
+    font-family:
+    color: 
+    
+
+}
+
+#user-label{
+    position:absolute;
+    top:30px;
+    left:-40px;
+}
+
+#computer-label{
+    position:absolute;
+    top:30px;
+    right:-95px;
+
+}
+
+.result > p{
+    padding: 20px 25px;
+    text-align:center;
+    font-weight:bolder;
+    text-transform: uppercase ;
+    font-size:45px;
+    font-family:  Trirong, serif;
+    color:maroon;
+    text-decoration: overline;
+    
+}
+
+.choices{
+    /* margin:50px; */
+    text-align:center;
+}
+
+#r{
+    /* background-image: radial-gradient( rgba(255, 0, 191, 0.181), rgb(234, 4, 126)); */
+    background-color: #EA047E;
+    transition:all 0.3s ease;
+    border:8px solid pink;
+}
+
+#p{
+    background-color: #00F5FF;
+    transition:all 0.3s ease;
+    border:8px solid rgb(126, 220, 232);
+}
+
+#s{
+    background-color: #FF6D28;
+    transition:all 0.3s ease;
+    border:8px solid lightsalmon;
+}
+
+.ch{
+    display:inline-block;
+    /* border:8px solid white; */
+    border-radius: 50%; 
+    padding:12px;
+    margin:20px;
+}
+
+.ch:hover{
+    cursor:pointer;
+    background-color: rgb(188, 58, 81);
+    
+}
+
+#s:hover{
+    background-color: lightsalmon;
+    border:8px solid #FF6D28;
+}
+#p:hover{
+    background-color:rgb(126, 220, 232);
+    border:8px solid #00F5FF;
+}#r:hover{
+    border:8px solid #EA047E;
+    background-color: pink;
+}
+
+#act-msg{
+    color:maroon;
+    text-decoration: underline;
+    text-align:center;
+    font-size:50px;
+    
+}
+
+
+.green-glow{
+    border:20px solid #4dcc7d;
+    box-shadow: 0 0 30px #31b43a;
+}
+
+.red-glow{
+    border:20px solid #fc121b;
+    box-shadow: 0 0 30px #d01115;
+
+}
+
+.gray-glow{
+    border:20px solid #464647;
+    box-shadow: 0 0 30px #25292b;
+
+}
